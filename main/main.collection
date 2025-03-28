@@ -14,11 +14,15 @@ embedded_instances {
   "position_stream: \\\"position\\\"\\n"
   "normal_stream: \\\"position\\\"\\n"
   "\"\n"
+  "  position {\n"
+  "    x: -0.069\n"
+  "    y: 0.079\n"
+  "  }\n"
   "}\n"
   ""
   position {
-    x: 309.0
-    y: 239.0
+    x: 391.0
+    y: 253.0
   }
   scale3 {
     x: 1000.0

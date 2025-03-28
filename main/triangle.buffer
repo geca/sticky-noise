@@ -10,6 +10,16 @@
         ]
     },
     {
+        "name": "texcoord0",
+        "type": "float32",
+        "count": 2,
+        "data": [
+            0.0, 0.0,
+            1.0, 0.0,
+            0.5, 1.0
+        ]
+    },
+    {
         "name": "color0",
         "type": "float32",
         "count": 4,
