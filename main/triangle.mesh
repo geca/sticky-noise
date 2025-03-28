@@ -1,0 +1,2 @@
+material: "/main/triangle.material"
+vertices: "/main/triangle.buffer"

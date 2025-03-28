@@ -1,0 +1,4 @@
+function update(self, dt)	
+	local rot = go.get(".", "euler")	
+	go.set(".", "euler.z", rot.z + 5 * dt)
+end

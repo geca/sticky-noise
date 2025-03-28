@@ -1,0 +1,27 @@
+name: "main"
+scale_along_z: 0
+embedded_instances {
+  id: "go"
+  data: "components {\n"
+  "  id: \"triangle\"\n"
+  "  component: \"/main/triangle.script\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"mesh\"\n"
+  "  type: \"mesh\"\n"
+  "  data: \"material: \\\"/main/triangle.material\\\"\\n"
+  "vertices: \\\"/main/triangle.buffer\\\"\\n"
+  "position_stream: \\\"position\\\"\\n"
+  "normal_stream: \\\"position\\\"\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    x: 309.0
+    y: 239.0
+  }
+  scale3 {
+    x: 1000.0
+    y: 1000.0
+  }
+}
